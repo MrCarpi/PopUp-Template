@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    background-image: url(/img/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 330px;
+    margin: 60px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+.container .container__top{
+    padding: 30px;
+    text-align: center;
+    background: rgb(14, 109, 250);
+    background-image: url(/img/Pattern.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.container .container__top h2{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.container .container__bottom{
+    padding: 20px;
+}
+.container .container__bottom .parrafo-first{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+}
+.container .container__bottom .container__subscribe{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.container .container__bottom .container__subscribe input{
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: rgb(243, 243, 243);
+    padding-left: 15px;
+    color: rgb(175, 175, 175);
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.container .container__bottom .container__subscribe button{
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(37, 106, 255);
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+.container .container__bottom .parrafo-two{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: rgb(180, 180, 180);
+    width: 230px;
+    
+}
+.container .container__bottom .container__perfil{
+    margin: 20px auto;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .container__bottom .container__perfil span{
+    font-weight: 600;
+}
+.container .container__bottom .container__perfil p{
+    color: rgb(75, 75, 75);
+    font-weight: 400;
+}
+.container .container__bottom .parrafo__three{
+    color: rgb(116, 116, 116);
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media (min-width:500px){
+    .container{
+        width:400px;
+    }
+}
